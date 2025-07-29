@@ -48,7 +48,7 @@ export default function App() {
         className='mb-3'
       />
 
-      <div className="flex flex-wrap gap-6 justify-center">
+      <div className="flex flex-wrap gap-6 justify-center mt-3.5">
         {profiles.map((profile) => (
           <Card
             key={profile.id}
