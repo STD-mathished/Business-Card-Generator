@@ -1,10 +1,10 @@
 
-export default function Card ({name, url, bio}) {
+export default function Card ({name, avatar, bio}) {
     
     return (
         <div class="bg-white rounded-xl shadow-md p-4 text-center w-64">
         <img
-            src={url}
+            src={avatar}
             alt="Profile picture"
             class="w-24 h-24 mx-auto rounded-full mb-4 object-cover"
         />
