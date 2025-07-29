@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './components/card'
+import Form from './components/form'
 
 function App() {
 
 
   return (
     <>
-    <Card name={'mathis'} age={19} profession={'fromager'}/>
-    <Card name={'Florence'} age={19} profession={'etudiante'}/>
-    <Card name={'NSI'} age={'??'} profession={'ALTERNANT'}/>
+      <h2 class="text-2xl font-bold mb-4 text-center">🧩 Profile Card Generator</h2>
+      <Form/>
     </>
   )
 }
